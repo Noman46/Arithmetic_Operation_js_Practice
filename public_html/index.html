@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Arithmetic</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+
+                background-color:#1F2739;
+            }
+            .input{
+                width:50%;
+                height: 300px;
+                background-color: black;
+                margin-left: 350px;
+            }
+            .selector{
+                margin-top:20px;
+                margin-left: 249px;
+            }
+            #t1{
+                margin-top: 10px;
+                margin-left: 250px;
+            }
+            #t2{
+                margin-top: 10px;
+                margin-left: 250px;
+            }
+            #result{
+                margin-top: 10px;
+                margin-left: 250px;
+            }
+            .header{
+                color:greenyellow;
+               margin-top:5px;
+               margin-left:200px;
+            }
+            
+            
+        </style>
+    </head>
+    <body>
+        
+        <div class="input">
+            <div class="header">SIMPLE ARITHMETIC OPERATION</div>
+            <div>
+                <input type="text" id="t1">
+                <br/>
+                <br/>
+                <input type="text" id="t2">
+            </div>
+            <div class="selector">
+                <select id="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="/">/</option>
+                    <option value="*">*</option>
+                </select> <input type="submit" id="submit" value="=">
+                
+            </div>
+            <input type="text" id="result">
+        </div>
+
+        <script src="js/do.js"></script>
+    </body>
+</html>
